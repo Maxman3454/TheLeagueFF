@@ -27,7 +27,7 @@ export const managers = [
        "name": "Max Berman",
        "location": "Boston", // (optional)
        "photo": "/managers/Max.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "lvr", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "oak", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "favoritePlayer": 2028, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     },
   {
