@@ -43,6 +43,7 @@ export const managers = [
   {
     "managerID": "456661525369712640",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Brett Berman",
+    "bio": "oh Gooood!",
        "location": "Storrs", // (optional)
        "photo": "/managers/Brett.jpg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
