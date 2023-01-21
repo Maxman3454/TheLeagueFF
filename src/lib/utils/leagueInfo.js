@@ -23,7 +23,8 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "Player": 339998596667551744,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 339998596667551744,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "339998596667551744",
       "Dexter McCann": "Your Name",
       "tookOver": Null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "West Hartford/CHI Town": "Brooklyn", // (optional)
