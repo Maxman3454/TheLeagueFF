@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "846605194857947136"; // your league ID
+export const leagueID = "1237457156513480704"; // your league ID
 export const leagueName = "The League"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -27,35 +27,90 @@ export const managers = [
        "name": "Max Berman",
        "location": "Boston", // (optional)
      "bio": "Indoubbbbbbbitly Doomed!",
-       "photo": "/managers/Max.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "oak", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "photo": "", // square ratio recommended (no larger than 500x500)
+      "favoriteTeam": "lv", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "favoritePlayer": 1718, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      "philosophy": "Dooomed",
     },
   {
        "managerID": "339998596667551744",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-       "name": "Dexter McCann",
+       "name": "Dex",
        "location": "ChiTown", // (optional)
-       "photo": "/managers/Dex.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "favoritePlayer": 4866, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     },
   {
-    "managerID": "456661525369712640",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+    "managerID": "456661491362295808",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Brett Berman",
     "bio": "oh Gooood!",
        "location": "Storrs", // (optional)
-       "photo": "/managers/Brett.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": ", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "favoritePlayer": 4217, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     "Bio": "Ohhh gooood!", 
      },
     {
-    "managerID": "456662506270617600",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+    "managerID": "456661629321342976",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Henry Glucksman",
        "location": "West Hartford", // (optional)
-       "photo": "/managers/Henry.jpeg", // square ratio recommended (no larger than 500x500)
+       "photo": ", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "favoritePlayer": 642, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
-  ]
+     {
+    "managerID": "456661525369712640",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+       "name": "Benjamin",
+       "location": "West Hartford", // (optional)
+       "photo": "", // square ratio recommended (no larger than 500x500)
+      "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      },
+   {
+    "managerID": "456662506270617600",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+       "name": "Glassman",
+       "location": "Boston", // (optional)
+       "photo": "", // square ratio recommended (no larger than 500x500)
+      "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      },
+ {
+    "managerID": "456663501805449216",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+       "name": "Matthew",
+       "location": "NYC", // (optional)
+       "photo": "", // square ratio recommended (no larger than 500x500)
+      "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      },
+ {
+    "managerID": "456675201908731904",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+       "name": "Justin",
+       "location": "CT", // (optional)
+       "photo": "", // square ratio recommended (no larger than 500x500)
+      "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      },
+  {
+    "managerID": "456876779588546560",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+       "name": "Nosh",
+       "location": "Chitown", // (optional)
+       "photo": "", // square ratio recommended (no larger than 500x500)
+      "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      },
+  {
+    "managerID": "456879643417374720",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+       "name": "Freda",
+       "location": "NYC", // (optional)
+       "photo": "", // square ratio recommended (no larger than 500x500)
+      "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      },
+  {
+    "managerID": "457262600254648320",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+       "name": "Jeter",
+       "location": "NYC", // (optional)
+       "photo": "", // square ratio recommended (no larger than 500x500)
+      "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      },
+  {
+    "managerID": "458148728809713664",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
+       "name": "Dylan",
+       "location": "NYC", // (optional)
+       "photo": "", // square ratio recommended (no larger than 500x500)
+      "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      },
