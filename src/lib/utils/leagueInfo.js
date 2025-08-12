@@ -44,8 +44,8 @@ export const managers = [
     "managerID": "456661491362295808",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Brett Berman",
     "bio": "oh Gooood!",
-       "location": "Storrs", // (optional)
-       "photo": ", // square ratio recommended (no larger than 500x500)
+       "location": "CT", // (optional)
+       "photo": "", // square ratio recommended (no larger than 500x500)
           "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "favoritePlayer": 4217, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     "Bio": "Ohhh gooood!", 
@@ -54,7 +54,7 @@ export const managers = [
     "managerID": "456661629321342976",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Henry Glucksman",
        "location": "West Hartford", // (optional)
-       "photo": ", // square ratio recommended (no larger than 500x500)
+       "photo": "", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "favoritePlayer": 642, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
