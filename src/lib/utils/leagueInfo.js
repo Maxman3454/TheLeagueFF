@@ -29,7 +29,6 @@ export const managers = [
      "bio": "Indoubbbbbbbitly Doomed!",
        "photo": "", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "lv", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "favoritePlayer": 1718, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      "philosophy": "Dooomed",
     },
   {
@@ -38,7 +37,6 @@ export const managers = [
        "location": "ChiTown", // (optional)
        "photo": "", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "favoritePlayer": 4866, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     },
   {
     "managerID": "456661491362295808",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -47,8 +45,6 @@ export const managers = [
        "location": "CT", // (optional)
        "photo":"", // square ratio recommended (no larger than 500x500)
           "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "favoritePlayer": 4217, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    "Bio": "Ohhh gooood!", 
      },
     {
     "managerID": "456661629321342976",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -56,7 +52,6 @@ export const managers = [
        "location": "West Hartford", // (optional)
        "photo": "", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "favoritePlayer": 642, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
      },
      {
     "managerID": "456661525369712640",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -114,3 +109,4 @@ export const managers = [
        "photo": "", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       }
+];
