@@ -46,7 +46,7 @@ export const managers = [
     "bio": "oh Gooood!",
        "location": "Storrs", // (optional)
        "photo": ", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+          "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "favoritePlayer": 4217, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     "Bio": "Ohhh gooood!", 
      },
